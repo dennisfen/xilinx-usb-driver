@@ -35,7 +35,7 @@ else
 	exit 1
 fi
 
-echo "Copying formware to /usr/share:"
+echo "Copying firmware to /usr/share:"
 for fw in "${dir}/"xusb*.hex; do
 	$ASROOT cp -v "${fw}" "/usr/share/"
 done
